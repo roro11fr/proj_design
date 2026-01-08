@@ -9,7 +9,12 @@ __pycache__/
 env/
 
 # Pytest
+.coverage
+htmlcov/
 .pytest_cache/
+.tox/
+coverage.xml
+nosetests.xml
 
 # IDE
 .vscode/

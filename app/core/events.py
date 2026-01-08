@@ -1,6 +1,8 @@
 from __future__ import annotations
 from typing import Protocol, Dict, Any, List
 
+import logging
+logger = logging.getLogger(__name__)
 
 class Observer(Protocol):
     def update(self, event: str, payload: Dict[str, Any]) -> None:
@@ -31,4 +33,4 @@ class EventBus:
 
 class ConsoleObserver:
     def update(self, event: str, payload: Dict[str, Any]) -> None:
-        print(f"[EVENT] {event} - {payload}")
+        logger.info("EVENT %s %s", event, payload)

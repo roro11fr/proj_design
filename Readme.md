@@ -125,8 +125,6 @@ pytest -q
 
 ---
 
-##  Running the Application
-...
 
 ## Running the Application
 

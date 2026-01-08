@@ -113,13 +113,20 @@ Observers subscribed to the `EventBus` receive and handle these events without t
 --- 
 ## 🧪 Testing
 
-The project uses **pytest** for automated testing and **pytest-cov** for measuring code coverage to ensure reliability and adherence to SOLID principles.
+The project uses **pytest** for automated testing and **pytest-cov**...
 
 ### Running the Tests
 To run all tests in quiet mode:
-```bash
+` ` `bash
 pytest -q 
-```
+` ` `
+
+![Test Coverage](media/images/test_coverage.png)
+
+---
+
+##  Running the Application
+...
 
 ## Running the Application
 
